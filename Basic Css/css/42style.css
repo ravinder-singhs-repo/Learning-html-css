@@ -1,0 +1,26 @@
+input[type='text']{
+    color: red;
+    background-color: blue;
+}
+a[href='https://google.co.in']{
+    color:purple;
+}
+
+
+/*all href that has google in it*/
+
+/* a[href*=google]{  
+    color:aqua;
+} */
+
+
+/* all href whose value starts with https */
+/* a[href^='https']{
+    color: green;
+} */
+
+/* all href whose value end with .com */
+/* a[href$='.com']{
+    color: pink;
+} */
+

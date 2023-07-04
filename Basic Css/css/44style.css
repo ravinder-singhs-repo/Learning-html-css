@@ -1,0 +1,17 @@
+/* order of specificity */
+/* inline style attribut > id selector >class selector > element selector */
+h1{
+    color:green;
+}
+
+.h1class{
+    color:red;
+}
+/* following class will have higher specificity incase we have only these two classes in an elemtn */
+.heading{
+    color: magenta;
+}
+
+#h1id{
+    color: blue;
+}

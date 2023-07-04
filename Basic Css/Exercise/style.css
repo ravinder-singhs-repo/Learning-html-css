@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Montserrat:wght@300&display=swap');
+body{
+    font-family: 'Caprasimo', cursive;
+font-family: 'Montserrat', sans-serif;
+}
+.container1{
+    background-color: rgb(211, 234, 226);
+}
+.container2{
+    background-color: rgb(211, 234, 226);
+}
+.heading{
+    color: rgb(36, 108, 84);
+}
+.highlight{
+    background-color: aqua;
+}
