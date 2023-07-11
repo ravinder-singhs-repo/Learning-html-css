@@ -1,0 +1,12 @@
+h1{
+    font-size: 2em;
+    border: 2em solid black;
+}
+.box1{
+    font-size: 20px;
+}
+
+ /* for first h1 which has font size 32px (2* 16px) border size will be double of that font size */
+ /*  for second h2 where the font size is 40px (2*20px) the border size will be 2 * font size i.e 80px*/
+
+ /*  same will happen if we give padding to h1 in em units its will multiply it with font size of that element  */

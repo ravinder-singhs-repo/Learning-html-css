@@ -1,0 +1,15 @@
+/* order of specificity */
+/* inline style attribut > id selector >class selector > element selector */
+div#container ul.mysongs li{
+    color: brown;
+    background-color: yellow;
+}
+/* specificity -> 113 */
+/* calculating specificity */
+/* _ _ _ _ ->inline style attribut - id selector -class selector -element selector */
+
+div#container ul.mysongs li.favourite{
+    color: yellow;
+    background-color: brown;
+}
+/*specificity-> 123 */

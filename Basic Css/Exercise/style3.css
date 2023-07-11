@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+}
+.navElems{
+    background-color: #cdcdcd;
+    text-align: center;
+}
+ul.navElems > li{
+    display: inline-block;
+    margin: 10px;
+    font-size: large;
+    border-bottom: 2px solid black;
+}
+ul.navElems > li>a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+h2{
+    border-bottom: 2px solid black;
+}
+.container1{
+    /* border: 2px solid black; */
+    margin-left: 50px;
+    margin-right: 50px;
+}

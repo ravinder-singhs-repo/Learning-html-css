@@ -1,0 +1,11 @@
+div{
+    font-size: 10px;
+    border: 2px solid red;
+    
+}
+p{
+    font-size: 200%;
+    border: 2px solid green;
+    width: 50%;
+    margin-left: 25%;
+}

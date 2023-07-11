@@ -1,0 +1,41 @@
+/* p:first-child{ //// if p is first child of a container
+    color:red
+} */
+
+
+/* p:first-of-type{// first p of a parent container 
+    color: green;
+} */
+
+/* p:last-child{  // if p is last child of a container
+    color: blue;
+} */
+
+/* p:last-of-type{// last p of a parent container 
+    color: aqua;
+} */
+
+
+/* p:nth-child(2){ // if p is second chile of its parent container
+    color: red;
+} */
+
+/* p:nth-child(2n){ //2 , 4, 6, 8th .... p of the parent container
+    color: red;
+} */
+/* value of n starts from 0,1,2,3.. */
+
+/* similarly we can do for 2n+1 */
+/* 1 , 3, 5, 7, 9th .... p of the parent  */
+
+ 
+/* :nth-of-type(2) will select 2nd element of type p   */
+
+
+/*body :not(p) -> all elements in body which are not p   */
+/* body :not(.fancy) -> all elements in body that dont have class fancy */
+
+/* div:empty() -> applies styling on all empty divs */
+
+/* :root() applies styling on root element ie html */
+  

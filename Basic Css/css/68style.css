@@ -1,0 +1,16 @@
+.cool::before{
+    display: block;
+    content: 'hello ';
+    color: green;
+    border: 2px solid blue;
+}
+.cool::after{
+    display: block;
+    content: 'hello ';
+    color: green;
+    border: 2px solid blue;
+}
+.main-heading::before{
+    content: 'hello ';
+    color: red;
+}
